@@ -1,6 +1,7 @@
-import React from 'react'
-
+import { useGlobalContext } from '../context/globalContext'
 function PuzzleBoard() {
+  const {aleksandar} = useGlobalContext()
+  console.log(aleksandar)
   return (
     <div>PuzzleBoard</div>
   )
